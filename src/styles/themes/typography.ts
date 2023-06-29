@@ -1,0 +1,110 @@
+import { fontFamily, fontSize, fontWeight } from './font';
+
+export default {
+  display: {
+    fontSize: fontSize.xxxLarge,
+    lineHeight: '80px',
+    fontWeight: fontWeight.bold,
+    fontFamily,
+  },
+  headingLarge: {
+    fontSize: fontSize.xxLarge,
+    lineHeight: '64px',
+    fontWeight: fontWeight.xBold,
+    letterSpacing: 0,
+    fontFamily,
+  },
+  headingMedium: {
+    fontSize: fontSize.xLarge,
+    lineHeight: '48px',
+    fontWeight: fontWeight.bold,
+    letterSpacing: 0,
+    fontFamily,
+  },
+  headingSmall: {
+    fontSize: fontSize.large,
+    lineHeight: '40px',
+    fontWeight: fontWeight.bold,
+    letterSpacing: 0,
+    fontFamily,
+  },
+  titleLarge: {
+    fontSize: fontSize.xxxxMedium,
+    lineHeight: '32px',
+    fontWeight: fontWeight.bold,
+    letterSpacing: '0.15px',
+    fontFamily,
+  },
+
+  titleMedium: {
+    fontSize: fontSize.xxMedium,
+    lineHeight: '24px',
+    fontWeight: fontWeight.bold,
+    letterSpacing: '0.15px',
+    fontFamily,
+  },
+
+  titleSmall: {
+    fontSize: fontSize.xMedium,
+    lineHeight: '24px',
+    fontWeight: fontWeight.bold,
+    letterSpacing: '0.15px',
+    fontFamily,
+  },
+  bodyLarge: {
+    fontSize: fontSize.xMedium,
+    lineHeight: '24px',
+    fontWeight: fontWeight.normal,
+    letterSpacing: 0,
+    fontFamily,
+  },
+  bodyMedium: {
+    fontSize: fontSize.medium,
+    lineHeight: '20px',
+    fontWeight: fontWeight.normal,
+    letterSpacing: '0.25px',
+    fontFamily,
+  },
+  bodySmall: {
+    fontSize: fontSize.xxSmall,
+    lineHeight: '16px',
+    fontWeight: fontWeight.normal,
+    letterSpacing: '0.4px',
+    fontFamily,
+  },
+  labelLarge: {
+    fontSize: fontSize.medium,
+    lineHeight: '20px',
+    fontWeight: fontWeight.bold,
+    letterSpacing: '0.1px',
+    fontFamily,
+  },
+  labelMedium: {
+    fontSize: fontSize.small,
+    lineHeight: '16px',
+    fontWeight: fontWeight.bold,
+    letterSpacing: '0.5px',
+    fontFamily,
+  },
+  labelSmall: {
+    fontSize: fontSize.small,
+    lineHeight: '16px',
+    fontWeight: fontWeight.medium,
+    letterSpacing: '0.5px',
+    fontFamily,
+  },
+  caption: {
+    fontSize: fontSize.small,
+    lineHeight: '16px',
+    fontWeight: fontWeight.normal,
+    letterSpacing: '0.6px',
+    fontFamily,
+  },
+  button: {
+    fontSize: fontSize.button,
+    lineHeight: '24px',
+    fontWeight: fontWeight.medium,
+    letterSpacing: '0.15px',
+    fontFamily,
+  },
+};

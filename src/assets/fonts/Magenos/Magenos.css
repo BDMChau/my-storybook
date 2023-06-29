@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'Magenos';
+  src: url('../Magenos/magenos-extrabold.otf') format('opentype');
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: 'Magenos';
+  src: url('../Magenos/magenos-bold.otf') format('opentype');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Magenos';
+  src: url('../Magenos/magenos-medium.otf') format('opentype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Magenos';
+  src: url('../Magenos/magenos-regular.otf') format('opentype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Magenos';
+  src: url('../Magenos/magenos-extrabolditalic.otf') format('opentype');
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Magenos';
+  src: url('../Magenos/magenos-bolditalic.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Magenos';
+  src: url('../Magenos/magenos-mediumitalic.otf') format('opentype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Magenos';
+  src: url('../Magenos/magenos-regularitalic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+}
