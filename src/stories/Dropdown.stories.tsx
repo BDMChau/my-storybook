@@ -3,7 +3,6 @@ import { useState } from 'react';
 import { ComponentMeta, ComponentStory } from '@storybook/react';
 
 import Dropdown from '@components/Dropdown';
-import DropdownNew from '@components/Dropdown/DropdownNew';
 import { DropdownProps, option, selectedOption } from '@components/Dropdown/props';
 
 export default {
@@ -37,9 +36,6 @@ export const Demo: ComponentStory<typeof Dropdown> = (args: DropdownProps) => {
   return (
     <>
       <Dropdown {...args} value={selected} onChange={(values: selectedOption) => setSelected(values)} />
-      <div style={{ marginTop: 20 }}>
-        <DropdownNew />
-      </div>
     </>
   );
 };
