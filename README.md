@@ -30,8 +30,6 @@ npm i demo-components-ui
 `Step 3:` Type `npm publish` to publish package
 `Step 4:` Login to account NPM if you are asked
 
-> Contact to Mr.Hon to get account information :D
-
 > If you want to review demo layout, see `4. Publish package to review`.
 
 ### 4. Publish package to review
