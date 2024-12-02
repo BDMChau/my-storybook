@@ -31,7 +31,7 @@ npm i demo-components-ui
 `Step 4:` Login to account NPM if you are asked
 
 > Review demo layout, see `4. Publish package to review`.
-
+> 
 ### 4. Publish package to review
 
 After building, type `npm chromatic` to publish in Chromatic.
